@@ -1,0 +1,26 @@
+const shop = require("./shop");
+const stock = require("./stock");
+const good  = require("./good");
+
+exports.a_addShop = shop.a_addShop;
+exports.b_changeShop = shop.b_changeShop;
+exports.c_deleteShop = shop.c_deleteShop;
+exports.d1_accurateFindShop = shop.d1_accurateFindShop;
+exports.d2_wideFindShop = shop.d2_wideFindShop;
+exports.getShopList = shop.getShopList;
+exports.e_addGood = good.e_addGood;
+exports.f_changeGood = good.f_changeGood;
+exports.g_deleteGood = good.g_deleteGood;
+exports.h1_accurateFindGood = good.h1_accurateFindGood;
+exports.h2_wideFindGood = good.h2_wideFindGood;
+exports.getGoodList = good.getGoodList;
+exports.i_addStock = stock.i_addStock;
+exports.j_changeStock = stock.j_changeStock;
+exports.k_deleteStock = stock.k_deleteStock;
+exports.l1_accurateFindStock = stock.l1_accurateFindStock;
+exports.l2_wideFindStock = stock.l2_wideFindStock;
+exports.getStockList = stock.getStockList;
+exports.m_goodToStock = good.m_goodToStock;
+exports.n_deleteGoodFromStock = good.n_deleteGoodFromStock;
+exports.o_moveGoodStockToStock = good.o_moveGoodStockToStock;
+exports.p_moveGoodStockToShop = good.p_moveGoodStockToShop;
